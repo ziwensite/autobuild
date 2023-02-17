@@ -7,6 +7,10 @@
 # 科学上网插件
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
 
+# 文件助手
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-fileassistant package/luci-app-fileassistant
+
+
 # 后台IP设置
 export Ipv4_ipaddr="192.168.2.2"            # 修改openwrt后台地址(填0为关闭)
 export Netmask_netm="255.255.255.0"         # IPv4 子网掩码（默认：255.255.255.0）(填0为不作修改)
