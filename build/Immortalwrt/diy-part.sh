@@ -4,10 +4,6 @@
 # 自行拉取插件之前请SSH连接进入固件配置里面确认过没有你要的插件再单独拉取你需要的插件
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
-# 科学上网插件
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
-
-
 # 后台IP设置
 export Ipv4_ipaddr="192.168.2.2"            # 修改openwrt后台地址(填0为关闭)
 export Netmask_netm="255.255.255.0"         # IPv4 子网掩码（默认：255.255.255.0）(填0为不作修改)
