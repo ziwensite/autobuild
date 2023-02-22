@@ -5,7 +5,7 @@
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
 # 科学上网插件
-# svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
 
 # 文件助手
 # svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-fileassistant package/luci-app-fileassistant
